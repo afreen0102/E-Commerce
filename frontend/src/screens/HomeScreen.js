@@ -27,6 +27,7 @@ const HomeScreen = () => {
     <div>
 
      <h1>Latest Products</h1>
+     <h1>Best Products</h1>
       { isLoading ? <Loader/> 
       : isError ? <h3><Message variant='danger'>{isError}</Message></h3>
       : <Row>
